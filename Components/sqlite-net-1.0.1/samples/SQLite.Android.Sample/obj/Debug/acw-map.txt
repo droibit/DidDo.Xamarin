@@ -1,0 +1,5 @@
+SQLite.Android.Sample.DelegatedMenuItemListener;sqlite.android.sample.DelegatedMenuItemListener
+SQLite.Android.Sample.ListFragment;sqlite.android.sample.ListFragment
+SQLite.Android.Sample.ListFragment.ListItemsAdapter;sqlite.android.sample.ListFragment_ListItemsAdapter
+SQLite.Android.Sample.MainActivity;sqlite.android.sample.MainActivity
+SQLite.Android.Sample.TabListener`1;sqlite.android.sample.TabListener_1

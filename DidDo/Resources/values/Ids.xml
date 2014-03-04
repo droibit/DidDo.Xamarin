@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<!-- Context Menu -->
+	<item name="action_delete_activity" type="id"/>
+	<item name="action_modify_activity" type="id" />
+	<item name="action_delete_activity_date" type="id" />
+	<item name="action_modify_activity_memo" type="id" />
+
+	<!-- Textfield -->
+	<item name="edit_activity_text" type="id" />
+</resources>

@@ -1,0 +1,15 @@
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/MonoAndroid,Version=v4.0.AssemblyAttribute.cs
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.Android.Sample.dll.mdb
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.Android.Sample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.Android.Sample.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/android/bin/SQLite.Android.Sample.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/res/layout/namedialog.xml
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/res/layout/listitem.xml
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/res/values/strings.xml
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/res/drawable/icon.png
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/R.cs.flag
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.Android.Sample-Signed.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/uploadflags.txt
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/SQLite.Android.Sample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/obj/Debug/SQLite.Android.Sample.dll.mdb
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.dll

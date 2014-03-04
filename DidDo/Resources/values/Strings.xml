@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Did Do!</string>
+	<string name="app_activity">Activity</string>
+	<string name="app_detail">Detail</string>
+
+	<!-- Actinbar Menu -->
+	<string name="action_title_new_activity">New Activity</string>
+	<string name="action_title_sort">Sort</string>
+	<!-- Context menu -->
+	<string name="context_menu_header">Menu</string>
+	<string name="action_title_delete_activity">Delete the Activity</string>
+	<string name="action_title_modify_activity">Modify the activity name</string>
+	<string name="action_title_delete_activity_date">Delete the activity date</string>
+	<string name="action_title_modify_activity_memo">Modify the activity memo</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title_add_activity">Add activity</string>
+	<string name="dialog_content_activity_name">Activity name:</string>
+	<string name="dialog_content_empty_activity_name">Anonymous activity</string>
+	<string name="dialog_title_add_activity_date">Add activity date</string>
+	<string name="dialog_content_activity_date_memo">Memo:</string>
+	<string name="dialog_content_empty_activity_date_memo">Please enter if necessary</string>
+	<string name="dialog_title_modify_activity">Modify activity</string>
+	<string name="dialog_title_modify_activity_memo">Modify activity memo</string>
+
+	<!-- Toast -->
+	<string name="toast_success_added_activity">Added a new activity</string>
+	<string name="toast_failed_add_activity">Failed to add activity</string>
+	<string name="toast_success_deleted_activity">Delete the activity</string>
+	<string name="toast_failed_delete_activity">Failed to delete activity</string>
+	<string name="toast_success_added_activity_date">Added a new acitivty date</string>
+	<string name="toast_failed_added_activity_date">Failed to delete activity date</string>
+	<string name="toast_success_delete_activity_date">Delete a activity date</string>
+	<string name="toast_failed_delete_activity_date">Failed to delete the activity date</string>
+	<string name="toast_input_result_empty_activity_name">Activity name is empty</string>
+	<string name="toast_input_result_duplicate_activity_name">It is the activity name duplicate</string>
+	<string name="toast_success_modify_activity_name">Modified the activity name</string>
+	<string name="toast_failed_modify_activity_name">Failed to modify the activity name</string>
+	<string name="toast_success_modify_activity_memo">Modified the activity memo</string>
+	<string name="toast_failed_modify_activity_memo">Failed to modify the activity memo</string>
+
+
+	<!---ListView -->
+	<string name="activity_list_view_header">Activity</string>
+	<string name="empty_activity_list">Please add the activity</string>
+	<string name="empty_activity_date_list">Please add the activity date</string>
+	<string name="list_view_header_activity_date">Activity Date</string>
+
+	<!---Misc -->
+	<string name="format_elapsed_date">%1$d days prgress</string> 
+	<string name="format_activity_sort">Sorted by "%1$s"</string> 
+	<string name="format_detail_activity_label_format">Details of the %1$s</string>
+</resources>

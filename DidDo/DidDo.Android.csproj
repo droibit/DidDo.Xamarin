@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B23863D0-91C2-44B7-84B7-E99D86B4649E}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Com.Droibit.DidDo</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>DidDo</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;__MOBILE__;__ANDROID__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>__MOBILE__;__ANDROID__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="SQLite">
+      <HintPath>..\Components\sqlite-net-1.0.1\lib\android\SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Souces\DetailActivity.cs" />
+    <Compile Include="Souces\View\ActivityListItemView.cs" />
+    <Compile Include="Souces\View\DetailListItemView.cs" />
+    <Compile Include="Souces\Controller\Adapter\ActivityListAdapter.cs" />
+    <Compile Include="Souces\MasterActivity.cs" />
+    <Compile Include="Souces\Fragment\MasterFragment.cs" />
+    <Compile Include="Souces\Fragment\DetailFragment.cs" />
+    <Compile Include="Souces\Model\Database\SQLiteManager.cs" />
+    <Compile Include="Souces\Model\ListItem\ActivityItem.cs" />
+    <Compile Include="Souces\Fragment\Dialog\AddActivityDialogFragment.cs" />
+    <Compile Include="Souces\Misc\ToastManager.cs" />
+    <Compile Include="Souces\Fragment\Dialog\SortActivityDialogFragment.cs" />
+    <Compile Include="Souces\View\DetailActivityViewHolder.cs" />
+    <Compile Include="Souces\Fragment\Dialog\AddActivityDateDialogFragment.cs" />
+    <Compile Include="Souces\Controller\Adapter\ActivityDateListAdapter.cs" />
+    <Compile Include="Souces\Model\ListItem\ActivityDateItem.cs" />
+    <Compile Include="Souces\Fragment\Dialog\ModifyTextDialogFragment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values-ja\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\FragmentDetail.axml" />
+    <AndroidResource Include="Resources\values-sw600dp\Refs.xml" />
+    <AndroidResource Include="Resources\values-large\Refs.xml" />
+    <AndroidResource Include="Resources\values\Ids.xml" />
+    <AndroidResource Include="Resources\layout\ActivityMasterContent.axml" />
+    <AndroidResource Include="Resources\layout\ActivityDetailContent.axml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\layout\ListViewActivityHeader.axml" />
+    <AndroidResource Include="Resources\layout\ListViewItemActivity.axml" />
+    <AndroidResource Include="Resources\layout\DialogAddActivity.axml" />
+    <AndroidResource Include="Resources\values\Arrays.xml" />
+    <AndroidResource Include="Resources\values-ja\Arrays.xml" />
+    <AndroidResource Include="Resources\menu\MasterMenu.xml" />
+    <AndroidResource Include="Resources\menu\DetailMenu.xml" />
+    <AndroidResource Include="Resources\layout\DialogAddActivityDate.axml" />
+    <AndroidResource Include="Resources\layout\ListViewItemActivityDate.axml" />
+    <AndroidResource Include="Resources\values\Dimens.xml" />
+    <AndroidResource Include="Resources\values-ja\Dimens.xml" />
+    <AndroidResource Include="Resources\values\Colors.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\values-ja\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Souces\" />
+    <Folder Include="Souces\Fragment\" />
+    <Folder Include="Souces\View\" />
+    <Folder Include="Souces\Model\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Souces\Controller\" />
+    <Folder Include="Souces\Model\ListItem\" />
+    <Folder Include="Souces\Controller\Adapter\" />
+    <Folder Include="Resources\values-large\" />
+    <Folder Include="Resources\values-sw600dp\" />
+    <Folder Include="Souces\Model\Database\" />
+    <Folder Include="Souces\Fragment\Dialog\" />
+    <Folder Include="Souces\Misc\" />
+    <Folder Include="Souces\Widget\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="sqlite-net">
+      <Version>1.0.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\diddo.sqlite" />
+  </ItemGroup>
+</Project>

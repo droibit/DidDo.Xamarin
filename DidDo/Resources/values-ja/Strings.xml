@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">DidDo</string>
+	<string name="app_activity">アクティビティ</string>
+	<string name="app_detail">アクティビティの詳細</string>
+
+	<!-- Actionbar Menu -->
+	<string name="action_title_new_activity">新しいアクティビティの追加</string>
+	<string name="action_title_sort">並べ替え</string>
+	<!-- Context Menu -->
+	<string name="context_menu_header">メニュー</string>
+	<string name="action_title_delete_activity">アクティビティの削除</string>
+	<string name="action_title_modify_activity">アクティビティ名の修正</string>
+	<string name="action_title_delete_activity_date">活動日の削除</string>
+	<string name="action_title_modify_activity_memo">メモの修正</string>
+
+	<!-- Dialog -->
+	<string name="dialog_title_add_activity">アクティビティの追加</string>
+	<string name="dialog_content_activity_name">アクティビティ名:</string>
+	<string name="dialog_content_empty_activity_name">無名のアクティビティ</string>
+	<string name="dialog_title_add_activity_date">活動日の追加</string>
+	<string name="dialog_content_activity_date_memo">メモ:</string>
+	<string name="dialog_content_empty_activity_date_memo">必要な場合入力してください</string>
+	<string name="dialog_title_modify_activity">アクティビティ名の修正</string>
+	<string name="dialog_title_modify_activity_memo">アクティビティメモの修正</string>
+
+	<!-- Toast -->
+	<string name="toast_success_added_activity">アクティビティを追加しました</string>
+	<string name="toast_failed_add_activity">アクティビティの追加に失敗しました</string>
+	<string name="toast_success_deleted_activity">アクティビティを削除しました</string>
+	<string name="toast_failed_delete_activity">アクティビティの削除に失敗しました</string>
+	<string name="toast_success_added_activity_date">新しい活動日を追加しました</string>
+	<string name="toast_failed_added_activity_date">活動日の追加に失敗しました</string>
+	<string name="toast_success_delete_activity_date">活動日を削除しました</string>
+	<string name="toast_failed_delete_activity_date">活動日の削除に失敗しました</string>
+	<string name="toast_input_result_empty_activity_name">アクティビティ名が空です</string>
+	<string name="toast_input_result_duplicate_activity_name">既に同じアクティビティが存在しています</string>
+	<string name="toast_success_modify_activity_name">アクティビティ名を修正しました</string>
+	<string name="toast_failed_modify_activity_name">アクティビティ名の修正に失敗しました</string>
+	<string name="toast_success_modify_activity_memo">アクティビティメモを修正しました</string>
+	<string name="toast_failed_modify_activity_memo">アクティビティメモの修正に失敗しました</string>
+
+	<!---ListView -->
+	<string name="activity_list_view_header">アクティビティ</string>
+	<string name="empty_activity_list">アクティビティを追加してください</string>
+	<string name="empty_activity_date_list">活動日を追加してください</string>
+	<string name="list_view_header_activity_date">活動日</string>
+
+	<!---Misc -->
+	<string name="format_elapsed_date">%1$d日経過</string>
+	<string name="format_activity_sort">"%1$s"順にソートしました</string>
+	<string name="format_detail_activity_label_format">%1$sの詳細</string>
+</resources>

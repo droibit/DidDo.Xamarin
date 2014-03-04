@@ -1,0 +1,2 @@
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/bin/Debug/SQLite.Android.Sample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/sqlite-net-1.0.1/lib/android/SQLite.dll
