@@ -40,7 +40,8 @@ namespace Com.Droibit.DidDo
 				// using a fragment transaction.
 				var df = DetailFragment.NewInstance(Intent.GetIntExtra(DetailFragment.ArgActivityId, -1));
 				FragmentManager.BeginTransaction ()
-					.Add (Resource.Id.activity_detail_container, df).Commit ();
+					.Replace (Resource.Id.activity_detail_container, df)
+					.Commit ();
 			}
 		}
 

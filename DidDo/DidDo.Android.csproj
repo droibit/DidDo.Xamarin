@@ -50,6 +50,9 @@
     <Reference Include="SQLite">
       <HintPath>..\Components\sqlite-net-1.0.1\lib\android\SQLite.dll</HintPath>
     </Reference>
+    <Reference Include="com.alliance.calendar">
+      <HintPath>..\Components\alliance-calendar-component-1.0\lib\android\com.alliance.calendar.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -71,6 +74,7 @@
     <Compile Include="Souces\Controller\Adapter\ActivityDateListAdapter.cs" />
     <Compile Include="Souces\Model\ListItem\ActivityDateItem.cs" />
     <Compile Include="Souces\Fragment\Dialog\ModifyTextDialogFragment.cs" />
+    <Compile Include="Souces\Fragment\CalendarFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -105,6 +109,12 @@
     <AndroidResource Include="Resources\values\Dimens.xml" />
     <AndroidResource Include="Resources\values-ja\Dimens.xml" />
     <AndroidResource Include="Resources\values\Colors.xml" />
+    <AndroidResource Include="Resources\layout\FragmentCalendar.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_go_to_today.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_go_to_today.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_go_to_today.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_go_to_today.png" />
+    <AndroidResource Include="Resources\drawable\list_selector_holo.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -127,10 +137,15 @@
     <Folder Include="Souces\Fragment\Dialog\" />
     <Folder Include="Souces\Misc\" />
     <Folder Include="Souces\Widget\" />
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="sqlite-net">
       <Version>1.0.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="alliance-calendar-component">
+      <Version>1.0</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>

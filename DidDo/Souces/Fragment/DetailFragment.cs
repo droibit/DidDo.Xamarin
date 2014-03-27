@@ -85,10 +85,17 @@ namespace Com.Droibit.DidDo.Fragments
 			case Android.Resource.Id.Home:
 				Activity.NavigateUpTo(new Intent(Activity, typeof(MasterActivity)));
 				return true;
+			case Resource.Id.action_display_calendar:
+				FragmentManager.BeginTransaction ()
+					.Add (Resource.Id.activity_detail_container, CalendarFragment.NewInstance (mActivityId))
+					.AddToBackStack(null)
+					.Hide (this)
+					.Commit ();
+				return true;
 			case Resource.Id.action_new_activity_date:
 				var dialog = new AddActivityDateDialogFragment ();
 				dialog.Show (this);
-				break;
+				return true;
 			}
 			return base.OnOptionsItemSelected (item);
 		}
@@ -134,7 +141,7 @@ namespace Com.Droibit.DidDo.Fragments
 				{
 					var activityDate = mViewHolder.ListAdapter.GetItem (menuInfo.Position);
 					var info = new ModifyTextDialogFragment.Info {
-						Text = activityDate.Memo,
+						Text = String.IsNullOrEmpty(activityDate.Memo) ? "---" : activityDate.Memo,
 						TargetPosition = menuInfo.Position,
 						ViewId = Resource.Layout.DialogAddActivityDate,
 						DialogTitleId = Resource.String.dialog_title_modify_activity_memo,
@@ -232,15 +239,15 @@ namespace Com.Droibit.DidDo.Fragments
 
 		public async void OnModifiedText(int targetPosition, string modifiedText)
 		{
-			modifiedText = String.IsNullOrEmpty(modifiedText) ? "---" : modifiedText;
+			modifiedText = String.IsNullOrEmpty(modifiedText) ? "" : modifiedText;
 			var activityDate = mViewHolder.ListAdapter.GetItem (targetPosition);
 			activityDate.Memo = modifiedText;
 
 			if (await mSqlite.UpdateActivityDateAsync (activityDate) > 0) {
 				mViewHolder.ListAdapter.NotifyDataSetChanged ();
-				ToastManager.ShowLongTime (Activity, Resource.String.toast_success_modify_activity_memo);
+				ToastManager.ShowShortTime (Activity, Resource.String.toast_success_modify_activity_memo);
 			} else {
-				ToastManager.ShowLongTime (Activity, Resource.String.toast_failed_modify_activity_memo);
+				ToastManager.ShowShortTime (Activity, Resource.String.toast_failed_modify_activity_memo);
 			}
 		}
 

@@ -74,7 +74,7 @@ namespace Com.Droibit.DidDo.Fragments
 				.SetTitle (Resource.String.dialog_title_add_activity_date)
 				.SetView (contentView)
 				.SetPositiveButton (Android.Resource.String.Ok, (s, e) => {
-					mCallbacks.OnEnteredActivityDate (GetMemo(editText.Text));
+					mCallbacks.OnEnteredActivityDate (editText.Text);
 				})
 				.SetNegativeButton (Android.Resource.String.Cancel, (s, e) => {
 					Dismiss();
@@ -90,7 +90,7 @@ namespace Com.Droibit.DidDo.Fragments
 		{
 			if (e.Action == KeyEventActions.Down && keyCode == Keycode.Enter) {
 				var editText = v as EditText;
-				mCallbacks.OnEnteredActivityDate (GetMemo(editText.Text));
+				mCallbacks.OnEnteredActivityDate (editText.Text);
 				Dismiss ();
 				return true;
 			}
@@ -103,18 +103,6 @@ namespace Com.Droibit.DidDo.Fragments
 		{
 			SetTargetFragment (targetFragment, 0);
 			Show (targetFragment.FragmentManager, TagDialog);
-		}
-
-		#endregion
-
-		#region Private Methods
-
-		private string GetMemo(string rawMemo)
-		{
-			if (String.IsNullOrEmpty(rawMemo)) {
-				return "---";
-			}
-			return rawMemo;
 		}
 
 		#endregion

@@ -3,4 +3,7 @@
     <style name="AppTheme" parent="android:Theme.Holo.Light">
         <item name="android:actionMenuTextColor">#36BBFF</item>
     </style>
+	<style name="CalendarButtonStyle" parent="android:Widget.DeviceDefault.Button">
+		<item name="android:background">@drawable/list_selector_holo</item>
+	</style>
 </resources>

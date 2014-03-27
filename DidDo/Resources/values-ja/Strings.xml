@@ -5,9 +5,12 @@
 	<string name="app_activity">アクティビティ</string>
 	<string name="app_detail">アクティビティの詳細</string>
 
+	<!--- Actionbar -->
+	<string name="actionbar_calendar">アクティビティカレンダー</string>
 	<!-- Actionbar Menu -->
 	<string name="action_title_new_activity">新しいアクティビティの追加</string>
 	<string name="action_title_sort">並べ替え</string>
+	<string name="action_title_display_calendar">カレンダーで表示</string>
 	<!-- Context Menu -->
 	<string name="context_menu_header">メニュー</string>
 	<string name="action_title_delete_activity">アクティビティの削除</string>
@@ -38,8 +41,10 @@
 	<string name="toast_input_result_duplicate_activity_name">既に同じアクティビティが存在しています</string>
 	<string name="toast_success_modify_activity_name">アクティビティ名を修正しました</string>
 	<string name="toast_failed_modify_activity_name">アクティビティ名の修正に失敗しました</string>
-	<string name="toast_success_modify_activity_memo">アクティビティメモを修正しました</string>
-	<string name="toast_failed_modify_activity_memo">アクティビティメモの修正に失敗しました</string>
+	<string name="toast_success_modify_activity_memo">メモを修正しました</string>
+	<string name="toast_failed_modify_activity_memo">メモの修正に失敗しました</string>
+	<string name="toast_no_activity">活動日はありません</string>
+	<string name="toast_no_memo">メモはありません</string>
 
 	<!---ListView -->
 	<string name="activity_list_view_header">アクティビティ</string>

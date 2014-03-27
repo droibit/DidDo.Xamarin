@@ -5,9 +5,12 @@
 	<string name="app_activity">Activity</string>
 	<string name="app_detail">Detail</string>
 
+	<!--- Actionbar -->
+	<string name="actionbar_calendar">Activity Calendar</string>
 	<!-- Actinbar Menu -->
 	<string name="action_title_new_activity">New Activity</string>
 	<string name="action_title_sort">Sort</string>
+	<string name="action_title_display_calendar">Display the calendar</string>
 	<!-- Context menu -->
 	<string name="context_menu_header">Menu</string>
 	<string name="action_title_delete_activity">Delete the Activity</string>
@@ -40,7 +43,8 @@
 	<string name="toast_failed_modify_activity_name">Failed to modify the activity name</string>
 	<string name="toast_success_modify_activity_memo">Modified the activity memo</string>
 	<string name="toast_failed_modify_activity_memo">Failed to modify the activity memo</string>
-
+	<string name="toast_no_activity">There is no activity</string>
+	<string name="toast_no_memo">There is no memo</string>
 
 	<!---ListView -->
 	<string name="activity_list_view_header">Activity</string>
@@ -52,4 +56,6 @@
 	<string name="format_elapsed_date">%1$d days prgress</string> 
 	<string name="format_activity_sort">Sorted by "%1$s"</string> 
 	<string name="format_detail_activity_label_format">Details of the %1$s</string>
+	<string name="calendar_next_month">&gt;&gt;</string>
+	<string name="calendar_prev_month">&lt;&lt;</string>
 </resources>

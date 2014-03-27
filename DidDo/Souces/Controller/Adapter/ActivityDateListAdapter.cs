@@ -44,7 +44,7 @@ namespace Com.Droibit.DidDo.Controllers
 
 			var item = GetItem (position);
 			itemView.DateView.Text = item.Date.ToString ("yy/MM/dd(ddd) HH:mm");
-			itemView.MemoView.Text = item.Memo;
+			itemView.MemoView.Text = String.IsNullOrEmpty(item.Memo) ? "---" : item.Memo;
 
 			return itemView;
 		}

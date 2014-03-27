@@ -1,0 +1,5 @@
+AllianceAndroidSample.CalendarDemoActivity;allianceandroidsample.CalendarDemoActivity
+com.alliance.calendar.CustomCalendar;com.alliance.calendar.CustomCalendar
+com.alliance.calendar.CalendarDayNames;com.alliance.calendar.CalendarDayNames
+com.alliance.calendar.CalendarMonthView;com.alliance.calendar.CalendarMonthView
+com.alliance.calendar.CalendarAdapter;com.alliance.calendar.CalendarAdapter

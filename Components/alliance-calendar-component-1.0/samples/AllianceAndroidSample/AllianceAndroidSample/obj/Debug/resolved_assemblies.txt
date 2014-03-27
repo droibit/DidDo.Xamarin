@@ -1,0 +1,2 @@
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/AllianceAndroidSample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/lib/android/com.alliance.calendar.dll

@@ -134,7 +134,10 @@ namespace Com.Droibit.DidDo.Fragments
 				.SetNegativeButton (Android.Resource.String.Cancel, (s, e) => {
 					Dismiss();
 				});
-			return builder.Create();
+			var dialog = builder.Create ();
+			dialog.Window.SetSoftInputMode (SoftInput.StateVisible);
+
+			return dialog;
 		}
 
 		#endregion

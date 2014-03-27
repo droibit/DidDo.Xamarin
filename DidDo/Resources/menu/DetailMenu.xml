@@ -5,6 +5,12 @@
         android:title="@string/action_title_new_activity"
         android:icon="@drawable/ic_action_new"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom" />
+        android:showAsAction="always" />
+
+ 	<item android:id="@+id/action_display_calendar"
+        android:title="@string/action_title_display_calendar"
+        android:icon="@drawable/ic_action_go_to_today"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom" />	   
 
 </menu>

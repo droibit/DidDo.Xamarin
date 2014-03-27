@@ -1,0 +1,14 @@
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/MonoAndroid,Version=v4.3.AssemblyAttribute.cs
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/AllianceAndroidSample.dll.mdb
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/AllianceAndroidSample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/AllianceAndroidSample.AllianceAndroidSample.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/android/bin/AllianceAndroidSample.AllianceAndroidSample.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/res/layout/main.xml
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/res/values/strings.xml
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/res/drawable/icon.png
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/R.cs.flag
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/AllianceAndroidSample.AllianceAndroidSample-Signed.apk
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/uploadflags.txt
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/AllianceAndroidSample.dll
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/obj/Debug/AllianceAndroidSample.dll.mdb
+/Users/kumagai/Development/Xamarin/DidDo.Xamarin/Components/alliance-calendar-component-1.0/samples/AllianceAndroidSample/AllianceAndroidSample/bin/Debug/com.alliance.calendar.dll
